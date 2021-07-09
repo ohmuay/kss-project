@@ -1,0 +1,18 @@
+{
+  "name": "kss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "initial": "npm install && npm install -g protractor --force && npm install -g webdriver-manager --force",
+    "kss": "webdriver-manager update && webdriver-manager start --detach && node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-beta.4"
+  },
+  "devDependencies": {}
+}
